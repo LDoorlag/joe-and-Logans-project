@@ -1,0 +1,18 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>It Begins</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">page2</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <h1>Joe wakes up one morning and hears his fire alarms going off!<br>What should he do?</h1>
+  <ion-button color="danger" (click)="changePage('page6')">Go back to sleep</ion-button>
+  <ion-button color="primary" (click)="changePage('page3')">Investsigate!</ion-button>
+  <ion-button color="danger" (click)="changePage('page4')">Call the Fire Department</ion-button>
+  <ion-button color="primary" (click)="changePage('page5')">Jump Out the window</ion-button>
+</ion-content>
